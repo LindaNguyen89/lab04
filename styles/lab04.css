@@ -11,6 +11,11 @@ last modified: 28/09/2025
 description: css file for lab04
 
 */
+
+/*basic style*/
+/*special elemtents effect*/
+/*pseudo classes*/
+
 * { font-family: calibri, sans-serif;
     color:#2F4F4F; 
 }
@@ -61,6 +66,10 @@ h1,h2,h3{
 .h{
     text-align: right;
 }
+
+ol{
+    list-style-type: upper-roman;
+}
 ol ul{
     list-style-type: square;
 }
@@ -76,6 +85,7 @@ ol ul{
 
 table, tr, th, td{
     border: 1px solid black;
+    border-collapse:collapse;
 }
 #hyperlinks{
     color: rgb(0, 128, 128);
@@ -84,6 +94,9 @@ table, tr, th, td{
 nav a:hover{
     background-color: lightblue;
     border-color: darkblue;
+}
+a:hover{
+    color:blueviolet;
 }
 #images{
     color: rgb(0, 128, 128);
